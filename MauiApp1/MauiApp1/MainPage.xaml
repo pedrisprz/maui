@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.MainPage"
+             xmlns:viewmodel="clr-namespace:MauiApp1.ViewModel">
+
+    <Grid RowDefinitions="100, Auto, *"
+          ColumnDefinitions="0.75*,0.25*"
+          Padding="10">
+
+        <Image Grid.ColumnSpan="2"
+               Source="dotnet_bot.png"
+               BackgroundColor="Cyan"/>
+        
+        <Entry Placeholder="Introduce una tarea"
+               Text="{Binding Text}"
+               Grid.Row="1"/>
+
+        <Button Text="Add"
+                Command="{Binding AddCommand}"
+                Grid.Row="1"
+                Grid.Column="1" />
+
+        <CollectionView Grid.Row="2" Grid.ColumnSpan="2"
+                        ItemsSource="{Binding Items}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="{x:Type x:String}">
+                    <Grid Padding="0,5">
+                        <SwipeView>
+                            <SwipeView.RightItems>
+                                <SwipeItem Text="Borrar"
+                                           BackgroundColor="Red"/>
+                            </SwipeView.RightItems>
+                        </SwipeView>
+                            <Frame>
+                                <Label Text="{Binding .}"
+                                       FontSize="24"/>
+                            </Frame>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+    </Grid>
+    
+
+</ContentPage>
