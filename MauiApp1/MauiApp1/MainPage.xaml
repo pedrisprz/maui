@@ -11,7 +11,7 @@
         <Image Grid.ColumnSpan="2"
                Source="dotnet_bot.png"
                BackgroundColor="Cyan"/>
-        
+
         <Entry Placeholder="Introduce una tarea"
                Text="{Binding Text}"
                Grid.Row="1"/>
@@ -19,29 +19,36 @@
         <Button Text="Add"
                 Command="{Binding AddCommand}"
                 Grid.Row="1"
-                Grid.Column="1" />
+                Grid.Column="1"/>
 
         <CollectionView Grid.Row="2" Grid.ColumnSpan="2"
-                        ItemsSource="{Binding Items}">
+                        ItemsSource="{Binding Items}"
+                        SelectionMode="None">
             <CollectionView.ItemTemplate>
                 <DataTemplate x:DataType="{x:Type x:String}">
                     <Grid Padding="0,5">
                         <SwipeView>
                             <SwipeView.RightItems>
                                 <SwipeItem Text="Borrar"
-                                           BackgroundColor="Red"/>
+                                           BackgroundColor="Red"
+                                           Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}}, Path=DeleteCommand}"
+                                           CommandParameter="{Binding .}"/>
                             </SwipeView.RightItems>
                         </SwipeView>
-                            <Frame>
-                                <Label Text="{Binding .}"
+                        <Frame>
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer 
+                                        Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}}, Path=TapCommand}"
+                                        CommandParameter="{Binding .}"/>
+                            </Frame.GestureRecognizers>
+                            <Label Text="{Binding .}"
                                        FontSize="24"/>
-                            </Frame>
+                        </Frame>
                     </Grid>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
 
     </Grid>
-    
 
 </ContentPage>
