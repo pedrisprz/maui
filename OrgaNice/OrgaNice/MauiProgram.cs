@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
+using OrgaNice.ViewModel;
 
 namespace OrgaNice
 {
@@ -17,6 +18,9 @@ namespace OrgaNice
 
 #if DEBUG
     		builder.Logging.AddDebug();
+
+            builder.Services.AddSingleton<MainPage>();
+            builder.Services.AddSingleton<MainViewModel>();
 #endif
 
             return builder.Build();

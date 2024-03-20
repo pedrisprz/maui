@@ -1,25 +1,30 @@
-﻿namespace OrgaNice
+﻿using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
+using OrgaNice.ViewModel;
+using System.Collections.ObjectModel;
+namespace OrgaNice
 {
     public partial class MainPage : ContentPage
     {
-        int count = 0;
+        string textoTarea;
+        ObservableCollection<string> items;
 
-        public MainPage()
+        public MainPage(MainViewModel vm)
         {
             InitializeComponent();
+            BindingContext = vm;
         }
 
-        private void OnCounterClicked(object sender, EventArgs e)
+        private void OnPickerSelectedIndexChanged(object sender, EventArgs e)
         {
-            count++;
+            var picker = (Picker)sender;
+            var selectedItem = picker.SelectedItem;
 
-            if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
-            else
-                CounterBtn.Text = $"Clicked {count} times";
-
-            SemanticScreenReader.Announce(CounterBtn.Text);
+            // Aquí puedes realizar acciones basadas en la opción seleccionada
         }
+
+
     }
+
 
 }

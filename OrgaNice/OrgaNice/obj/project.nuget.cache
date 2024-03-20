@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "tawnxs8Yvc2Fk81tB9yat90OyuLYYlUG2/44AEDx8h4dy9a8K6n8bsc9gtuJjJtHJOfQpwXIhtPmXbqpE3BeEw==",
+  "dgSpecHash": "+Ci4tl4SxclsRYrnOb39dRnL6CymkTHTwIBx/m2A/gYr23SDOrwrai/CHQZf1Rd8mO3DxOXGAyWpcdXXFwbyFQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Andres\\source\\repos\\OrgaNice\\OrgaNice\\OrgaNice.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Andres\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512",
     "C:\\Users\\Andres\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\Andres\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\Andres\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",

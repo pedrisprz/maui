@@ -4,12 +4,36 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:OrgaNice"
-    Shell.FlyoutBehavior="Disabled"
+    Shell.FlyoutBehavior="Flyout"
     Title="OrgaNice">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <FlyoutItem Title="Home" FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent
+            Title="Inicio"
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Route="MainPage"
+            Icon="dotnet_bot.png"/>
+
+        <ShellContent
+            Title="Tareas"
+            ContentTemplate="{DataTemplate local:TasksPage}"
+            Route="MainPage"
+            Icon="dotnet_bot.png"/>
+
+        <ShellContent
+            Title="Usuarios"
+            ContentTemplate="{DataTemplate local:UserPage}"
+            Route="MainPage"
+            Icon="dotnet_bot.png"/>
+
+        <ShellContent
+            Title="Opciones"
+            ContentTemplate="{DataTemplate local:OptionsPage}"
+            Route="MainPage"
+            Icon="dotnet_bot.png"/>
+
+    </FlyoutItem>
+    
+    
 
 </Shell>

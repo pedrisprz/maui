@@ -1,12 +1,109 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Andres\\source\\repos\\OrgaNice\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3ABCCCFD-A2E5-478F-8419-25FDE207175E}|OrgaNice\\OrgaNice.csproj|c:\\users\\andres\\source\\repos\\organice\\organice\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3ABCCCFD-A2E5-478F-8419-25FDE207175E}|OrgaNice\\OrgaNice.csproj|solutionrelative:organice\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ABCCCFD-A2E5-478F-8419-25FDE207175E}|OrgaNice\\OrgaNice.csproj|c:\\users\\andres\\source\\repos\\organice\\organice\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ABCCCFD-A2E5-478F-8419-25FDE207175E}|OrgaNice\\OrgaNice.csproj|solutionrelative:organice\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ABCCCFD-A2E5-478F-8419-25FDE207175E}|OrgaNice\\OrgaNice.csproj|c:\\users\\andres\\source\\repos\\organice\\organice\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ABCCCFD-A2E5-478F-8419-25FDE207175E}|OrgaNice\\OrgaNice.csproj|solutionrelative:organice\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ABCCCFD-A2E5-478F-8419-25FDE207175E}|OrgaNice\\OrgaNice.csproj|c:\\users\\andres\\source\\repos\\organice\\organice\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3ABCCCFD-A2E5-478F-8419-25FDE207175E}|OrgaNice\\OrgaNice.csproj|solutionrelative:organice\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ABCCCFD-A2E5-478F-8419-25FDE207175E}|OrgaNice\\OrgaNice.csproj|c:\\users\\andres\\source\\repos\\organice\\organice\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ABCCCFD-A2E5-478F-8419-25FDE207175E}|OrgaNice\\OrgaNice.csproj|solutionrelative:organice\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\Andres\\source\\repos\\OrgaNice\\OrgaNice\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "OrgaNice\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\Andres\\source\\repos\\OrgaNice\\OrgaNice\\MauiProgram.cs",
+              "RelativeToolTip": "OrgaNice\\MauiProgram.cs",
+              "ViewState": "AQIAAAcAAACgmZmZmZkhwBYAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T11:24:52.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Andres\\source\\repos\\OrgaNice\\OrgaNice\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "OrgaNice\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Andres\\source\\repos\\OrgaNice\\OrgaNice\\MainPage.xaml.cs",
+              "RelativeToolTip": "OrgaNice\\MainPage.xaml.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAABYAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T09:12:26.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Andres\\source\\repos\\OrgaNice\\OrgaNice\\App.xaml",
+              "RelativeDocumentMoniker": "OrgaNice\\App.xaml",
+              "ToolTip": "C:\\Users\\Andres\\source\\repos\\OrgaNice\\OrgaNice\\App.xaml",
+              "RelativeToolTip": "OrgaNice\\App.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-20T08:42:48.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Andres\\source\\repos\\OrgaNice\\OrgaNice\\ViewModel\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "OrgaNice\\ViewModel\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\Andres\\source\\repos\\OrgaNice\\OrgaNice\\ViewModel\\MainViewModel.cs",
+              "RelativeToolTip": "OrgaNice\\ViewModel\\MainViewModel.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAABkAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T12:49:31.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Andres\\source\\repos\\OrgaNice\\OrgaNice\\MainPage.xaml",
+              "RelativeDocumentMoniker": "OrgaNice\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\Andres\\source\\repos\\OrgaNice\\OrgaNice\\MainPage.xaml",
+              "RelativeToolTip": "OrgaNice\\MainPage.xaml",
+              "ViewState": "AQIAACYAAAAAAAAAAAAAADIAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-18T12:59:17.132Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
